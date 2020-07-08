@@ -1,0 +1,6 @@
+type,protocol,from,to,cidr_blocks,comment
+ingress,icmp,8,0,10.0.0.0/8,ICMP echo request
+egress,icmp,8,0,10.0.0.0/8,ICMP echo request
+ingress,tcp,135,135,10.1.1.0/24,RPC domain controllers
+ingress,tcp,1024,65535,10.1.1.0/24,RPC dynamic domain controllers
+egress,tcp,389,389,10.1.1.0/24,LDAP domain controllers

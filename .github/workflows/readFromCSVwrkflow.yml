@@ -40,6 +40,7 @@ jobs:
       - name: "Run - Terraform Init"
         run: terraform init -input=false
         
+#         #terraform format
       - name: "Run - Terraform format"
         run: terraform fmt -input=false
         
